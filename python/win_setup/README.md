@@ -1,5 +1,9 @@
 # Very Basic Python Learning Guide.
-Disclaimer: This article is based on my personal opinion and does not reflect best practice. 
+Disclaimer: This article is based on my personal opinion and does not reflect best practice.
+
+Python is very easy to learn programming language. As per [StackOverflow developer suvey 2019](https://insights.stackoverflow.com/survey/2019), Python is the fastest-growing major programming language today. [Python outranked Java as the second most popular language on GitHub by repository contributors](https://octoverse.github.com/) in late 2019.
+
+But when it comes to setting up pyton on windows for begginers, it is little difficult. Lets make it easy.
 
 ## Setting up Python Environment on Windows 7/10
 
@@ -16,13 +20,13 @@ For more information visit [official site](https://www.python.org/downloads)
 Note: The images aer for python 3.7.5, it aplies to python 3.7.6
 
 If you have admin rights (your personal PC), install with default settings.
-<img src="src/img/py_default-min.png">
+<img src="src/img/py_default-min.png" width="400">
 
 If you do not have admin rights (work pc), uncheck `Install launcher for all users (recommended)`
-<img src="src/img/py_noadmin-min.png">
+<img src="src/img/py_noadmin-min.png" width="400">
 
-<img src="src/img/py_installing-min.png">
-<img src="src/img/py_installed-min.png">
+<img src="src/img/py_installing-min.png" width="400">
+<img src="src/img/py_installed-min.png" width="400">
 
 
 ### Create virtual environment and install development libraries
@@ -90,3 +94,5 @@ Thats it. Happy coding.
 Python is very easy to learn.
 
 [Introduction to Python on UDACITY](https://www.udacity.com/course/introduction-to-python--ud1110) is good place to start. After finishing, you should take wonderful course [Introduction to Computer Science and Programming Using Python by MITx](https://www.edx.org/course/introduction-to-computer-science-and-programming-7).
+
+Your suggestions are welcome at any time. Please contact me at pr.rahulpatel at gmail.com
