@@ -54,6 +54,8 @@ It will take some time depending on your internet speed. Please do not close com
 
 
 ### Download IDE (Integrated development environment)
+As per [StackOverflow developer suvey 2019](https://insights.stackoverflow.com/survey/2019#technology-_-most-popular-development-environments), Visual Studio Code (VSCode) is most popular development environment. VSCodium is free binary distribution of VSCode with clean licence. Download it from below links.
+
 [64bit](https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-x64-1.41.0.zip)
 
 [32bit](https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-ia32-1.41.0.zip)
@@ -62,7 +64,7 @@ For more information visit [official site](https://vscodium.com/)
 
 
 ### Prepare IDE
-- unzip `VSCodium-win32-x64-1.41.0.zip` to desired location. if possible unzip in `%LOCALAPPDATA%\Programs\vscodium`.
+- unzip zip file (`VSCodium-win32-x64-1.41.0.zip`) to desired location. if possible unzip in `%LOCALAPPDATA%\Programs\vscodium`.
 
 - install python extension for IDE
 
