@@ -8,7 +8,7 @@ But when it comes to setting up pyton on windows for begginers, it is little dif
 ## Setting up Python Environment on Windows 7/10
 
 ### Download python
-The latest python is pyton 3.8.1 but we should use python 3.7 version for stability and compatibility. python 3.7.6 is latest stable version. Download it from below links. 64 bit version is reccomended. If you are confused use universal 32 bit version.
+The Pyton 3.8.1 is latest but we should use python 3.7 series now for stability and compatibility and switch to python 3.8 later. Python 3.7.6 is latest stable version. Download it from below links. 64 bit version is reccomended. If you are confused use universal 32 bit version.
 
 [64bit](https://www.python.org/ftp/python/3.7.6/python-3.7.6-amd64.exe)
 
