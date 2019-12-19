@@ -65,18 +65,20 @@ For more information visit [official site](https://vscodium.com/)
 - unzip `VSCodium-win32-x64-1.41.0.zip` to desired location. if possible unzip in `%LOCALAPPDATA%\Programs\vscodium`.
 
 - install python extension for IDE
-Double click `VSCodium` executable. In customize section click python install python extension. (See image for more info)
+
+    Double click `VSCodium` executable. In customize section click python install python extension. (See image for more info)
 <img src="src/img/vscodium_python-min.png">
 
     Press ok in right hand down corner. It will take some time to install. Please do not click any more buttons if prompted.
 
 - Select python environment
+
     Go to File > Preferences > Settings and type python.pythonpath
 
     In the input field (where python is written), replace python with your virtual environment python path. it will be `C:\Users\user.name\dev\scripts\python`. You need to change user.name with your username. If you are lazy, enough type `echo %userprofile%\dev\scripts\python` in cmd and python path will be printed. Just copy that and paste it in above field. It should look like this.
     <img src="src/img/vscodium_settings_pythonpath-min.png">
 
-close settings. press ctrl + N for new file. Type `print('Hello world')`. press ctrl + S, save as hello.py to anywhere you want.
+close settings. Press `ctrl+N` for new file. Type `print('Hello world')`, press `ctrl+S`, save as hello.py to anywhere you want.
 
 To run python program, open cmd and type following.
 
@@ -85,9 +87,9 @@ C:\Users\user.name > dev\Scripts\activate
 (dev) C:\Users\rahulkumar.patel > python path\to\your\hello.py
 ```
 
-You need to change `path\to\your\hello.py` to real path of your above saved file.
+You need to change `path\to\your\hello.py` to real path of your above saved file. To copy file path of any file in windows, highlight file single click, press and hold `shift` key and right click on file then select `copy as path` option.
 
-It will be handy if you have enabled file extensions. Please click [here](How to Make Windows Show File Extensions) if you don't know how?
+It will be handy if you have enabled file extensions for known files in windows. Please click [here](How to Make Windows Show File Extensions) if you don't know how?
 
 Thats it. Happy coding.
 
