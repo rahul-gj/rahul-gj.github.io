@@ -5,11 +5,11 @@ Disclaimer: This article is based on author's point of view and doesn't reflect 
 
 ### Download python
 
-64bit: https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe
+[64bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)
 
-32bit: https://www.python.org/ftp/python/3.7.5/python-3.7.5.exe
+[32bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5.exe)
 
-for more information visit www.python.org/downloads
+for more information visit [official site](www.python.org/downloads)
 
 ### Install python
 Install with default settings.
@@ -41,9 +41,11 @@ It will take some time depending on your internet and computer speed. please do 
 
 
 ### Download IDE (Integrated development environment)
-64bit: https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-x64-1.41.0.zip
+[64bit](https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-x64-1.41.0.zip)
 
-32bit: https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-ia32-1.41.0.zip
+[32bit](https://github.com/VSCodium/vscodium/releases/download/1.41.0/VSCodium-win32-ia32-1.41.0.zip)
+
+for more information visit [official site](https://vscodium.com/)
 
 
 ### Prepare IDE
