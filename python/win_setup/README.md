@@ -50,7 +50,7 @@ For more information visit [official site](https://vscodium.com/)
 
 - install python extension for IDE
 Double click `VSCodium` executable. In customize section click python install python extension. (See image for more info)
-<img src="src/img/vscodium_python.png">
+<img src="/src/img/vscodium_python.png">
 
     Press ok in right hand down corner. It will take some time to install. Please do not click any more buttons if prompted.
 
@@ -58,4 +58,4 @@ Double click `VSCodium` executable. In customize section click python install py
     Go to File > Preferences > Settings and type python.pythonpath
 
     In the input field (where python is written), replace python with your virtual environment python path. it will be `C:\Users\user.name\dev\scripts\python`. You need to change user.name with your username. If you are lazy, enough type `echo %userprofile%\dev\scripts\python` in cmd and python path will be printed. Just copy that and paste it in above field. It should look like this.
-    <img src="src/img/vscodium_settings_pythonpath.png">
+    <img src="/src/img/vscodium_settings_pythonpath.png">
