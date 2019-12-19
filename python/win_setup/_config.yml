@@ -1,4 +1,5 @@
-title: Rahul's Blog
+theme: jekyll-theme-cayman
+title: [Rahul's Blog]
 plugins:
   - jekyll-relative-links
 relative_links:
