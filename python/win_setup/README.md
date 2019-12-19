@@ -20,9 +20,11 @@ For more information visit [official site](https://www.python.org/downloads)
 Note: The images aer for python 3.7.5, it aplies to python 3.7.6
 
 If you have admin rights (your personal PC), install with default settings.
+
 <img src="src/img/py_default-min.png" width="400">
 
 If you do not have admin rights (work pc), uncheck `Install launcher for all users (recommended)`
+
 <img src="src/img/py_noadmin-min.png" width="400">
 
 <img src="src/img/py_installing-min.png" width="400">
