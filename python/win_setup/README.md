@@ -37,7 +37,7 @@ Python installed system vide should not be used for development and testing. You
 If python is installed with default settings it will be installed in `C:\Users\{user.name}>appdata\local\programs\python\python37`
 
 Open windows command prompt (Go to `All Programs>Accesories>Command Prompt` or press <kbd>⊞ Win</kbd> and type cmd then hit <kbd>Enter</kbd> or press <kbd>⊞ Win</kbd>+<kbd>R</kbd>, type cmd and hit <kbd>Enter</kbd>).
-By default, it will be opened in home directory. Type following commands after that. Please note that every line is prefixed with `C:\Users\{user.name}> ` just for explanation. You only need to type (or copy/paste) text after that. For example in last line, only `dev\scripts\activate` is need to be typed not `C:\Users\{user.name}> dev\scripts\activate`. `{user.name}` placeholder is for your understanding and it means your username jayvir or ashish or whatever your user name is. You can guess the username when you start cmd from start menu.
+By default, it will be opened in home directory. Type following commands after that. Please note that every line is prefixed with `C:\Users\{user.name}> ` just for explanation. You only need to type (or copy/paste) text after that. For example in last line, only `dev\scripts\activate` is need to be typed not `C:\Users\{user.name}> dev\scripts\activate`. `{user.name}` placeholder is for your understanding and it means your username jayvir or ashish or whatever your user name is. You can guess the username when you start cmd by above methods as it will be prefixed on every command you type. The prefix in your command prompt denotes in which directory you are in.
 
 ```cmd
 C:\Users\{user.name}> %LOCALAPPDATA%\Programs\Python\Python37\python -m venv dev
