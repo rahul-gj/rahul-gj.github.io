@@ -40,7 +40,7 @@ Open windows command prompt (press win key and type cmd then enter).
 By default, it will be opened in home directory (Type `cd %userprofile%` if you want to make sure). Type following commands after that. Please note that every line is prefixed with `C:\Users\user.name> ` just for explanation. You only need to type (or copy/paste) text after that. For example in last line, only `dev\scripts\activate` is need to be typed not `C:\Users\user.name> dev\scripts\activate`.
 
 ```cmd
-C:\Users\user.name> %LOCALAPPDATA%\Programs\Python\Python37\python.exe -venv dev
+C:\Users\user.name> %LOCALAPPDATA%\Programs\Python\Python37\python.exe -m venv dev
 C:\Users\user.name> dev\scripts\activate
 ```
 
