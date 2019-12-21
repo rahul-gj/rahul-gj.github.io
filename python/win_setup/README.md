@@ -1,4 +1,4 @@
-# Very Basic Python Learning Guide.
+# Very Basic Python Setup and Learning Guide on Windows.
 Disclaimer: This article is based on my personal opinion and does not reflect best practice.
 
 Python is very easy to learn programming language. As per [StackOverflow developer suvey 2019](https://insights.stackoverflow.com/survey/2019), Python is the fastest-growing major programming language today. [Python outranked Java as the second most popular language on GitHub by repository contributors](https://octoverse.github.com/) in late 2019.
@@ -34,23 +34,33 @@ If you do not have admin rights (work pc), uncheck `Install launcher for all use
 ### Create virtual environment and install development libraries
 Python installed system vide should not be used for development and testing. You should always use python virtual environments so that if anything goes wrong, your system installation is not affected.
 
-If python is installed with default settings it will be installed in `%LOCALAPPDATA%\Programs\Python\Python37`
+If python is installed with default settings it will be installed in `C:\Users\{user.name}>appdata\local\programs\python\python37`
 
-Open windows command prompt (press win key and type cmd then enter).
-By default, it will be opened in home directory (Type `cd %userprofile%` if you want to make sure). Type following commands after that. Please note that every line is prefixed with `C:\Users\user.name> ` just for explanation. You only need to type (or copy/paste) text after that. For example in last line, only `dev\scripts\activate` is need to be typed not `C:\Users\user.name> dev\scripts\activate`.
-
-```cmd
-C:\Users\user.name> %LOCALAPPDATA%\Programs\Python\Python37\python.exe -m venv dev
-C:\Users\user.name> dev\scripts\activate
-```
-
-On successful virtual environment creation and activation your virtual name (in our case `dev`) with parenthesis will appear before path in your command window. You can close the cmd after that. Continue typing following command to install two module useful for development.
+Open windows command prompt (Go to `All Programs>Accesories>Command Prompt` or press <kbd>⊞ Win</kbd> and type cmd then hit <kbd>Enter</kbd> or press <kbd>⊞ Win</kbd>+<kbd>R</kbd>, type cmd and hit <kbd>Enter</kbd>).
+By default, it will be opened in home directory. Type following commands after that. Please note that every line is prefixed with `C:\Users\{user.name}> ` just for explanation. You only need to type (or copy/paste) text after that. For example in last line, only `dev\scripts\activate` is need to be typed not `C:\Users\{user.name}> dev\scripts\activate`. `{user.name}` placeholder is for your understanding and it means your username jayvir or ashish or whatever your user name is. You can guess the username when you start cmd from start menu.
 
 ```cmd
-(dev) C:\Users\user.name> pip install pylint yapf
+C:\Users\{user.name}> %LOCALAPPDATA%\Programs\Python\Python37\python -m venv dev
+C:\Users\{user.name}> dev\scripts\activate
 ```
 
-It will take some time depending on your internet speed. Please do not close command prompt while installation is pending. You will be acknowledged after successful installation. You can read about [pip](https://docs.python.org/3.7/installing/index.html), [pylint](https://github.com/PyCQA/pylint) and [yapf](https://github.com/google/yapf)
+**Explanation**:
+
+- First line `%LOCALAPPDATA%\Programs\Python\Python37\python -m venv dev` is for creating python virtual environment by calling `python -m venv dev`. As our python executable is in `C:\Users\{user.name}>appdata\local\programs\python\python37` we need to include full path. `%LOCALAPPDATA%` is one of the [windows environment variables](https://ss64.com/nt/syntax-variables.html) which is expanded to `C:\Users\{user.name}>appdata\loca`.
+    
+- On second line we activate the created virtual environment bu typing `dev\scripts\activate`. As we have ran `python -m venv dev` in home directory, new python virtual environment named `dev` will be created in `C:\Users\{user.name}>dev`. As we are already on home path when we start `cmd`, we can use relative paths. The full path for above command will be `C:\Users\{user.name}\dev\scripts\activate` (which is also valid).
+
+On successful virtual environment creation and activation your virtual name (in our case `dev`) with parenthesis will appear before path in your command window.
+
+<img src="src/img/venv_active-min.png" width="400">
+
+Continue typing following command to install two module useful for development (IDE integration).
+
+```cmd
+(dev) C:\Users\{user.name}> pip install pylint yapf
+```
+
+It will take some time depending on your internet speed. Please do not close command prompt during installation. You will be acknowledged after successful installation. You can read about [pip](https://docs.python.org/3.7/installing/index.html), [pylint](https://github.com/PyCQA/pylint) and [yapf](https://github.com/google/yapf)
 
 
 ### Download IDE (Integrated development environment)
@@ -77,7 +87,7 @@ Press ok in right hand down corner. It will take some time to install. Please do
 
     Go to File > Preferences > Settings and type python.pythonpath
 
-    In the input field (where python is written), replace python with your virtual environment python path. it will be `C:\Users\user.name\dev\scripts\python`. You need to change user.name with your username. If you are lazy, enough type `echo %userprofile%\dev\scripts\python` in cmd and python path will be printed. Just copy that and paste it in above field. It should look like this.
+    In the input field (where python is written), replace python with your virtual environment python path. it will be `C:\Users\{user.name}\dev\scripts\python`. You need to change {user.name} with your username. If you are lazy, enough type `echo %userprofile%\dev\scripts\python` in cmd and python path will be printed. Just copy that and paste it in above field. It should look like this.
     <img src="src/img/vscodium_settings_pythonpath-min.png">
 
 close settings. Press `ctrl+N` for new file. Type `print('Hello world')`, press `ctrl+S`, save as hello.py to anywhere you want.
@@ -85,7 +95,7 @@ close settings. Press `ctrl+N` for new file. Type `print('Hello world')`, press 
 To run python program, open cmd and type following.
 
 ```cmd
-C:\Users\user.name > dev\Scripts\activate
+C:\Users\{user.name} > dev\Scripts\activate
 (dev) C:\Users\rahulkumar.patel > python path\to\your\hello.py
 ```
 
