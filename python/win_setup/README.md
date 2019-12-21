@@ -71,7 +71,7 @@ For more information visit [official site](https://vscodium.com/)
     Double click `VSCodium` executable. In customize section click python install python extension. (See image for more info)
 <img src="src/img/vscodium_python-min.png">
 
-    Press ok in right hand down corner. It will take some time to install. Please do not click any more buttons if prompted.
+Press ok in right hand down corner. It will take some time to install. Please do not click any more buttons if prompted.
 
 - Select python environment
 
